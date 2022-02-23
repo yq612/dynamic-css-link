@@ -2,7 +2,7 @@
  * @name Dynamic-css-link
  */
 
-import { LinkObj, Sign } from "../types";
+import { LinkObj, Sign, DynamicCssLinkType } from "../types";
 
 class DynamicCssLink {
   private linkMap = new Map<Sign, Element>();
@@ -29,8 +29,9 @@ class DynamicCssLink {
         temp.push(symbol);
       }
     }
+    this.headEle?.appendChild(fragment);
 
-    return [];
+    return temp;
   }
   /**
    * Show given css-link by sign
@@ -92,5 +93,4 @@ class DynamicCssLink {
     }
   }
 }
-
-export default DynamicCssLink;
+export const demo: DynamicCssLinkType = new DynamicCssLink();
