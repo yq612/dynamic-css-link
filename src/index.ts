@@ -93,4 +93,4 @@ class DynamicCssLink {
   }
 }
 
-export default new DynamicCssLink();
+export default DynamicCssLink;
