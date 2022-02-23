@@ -1,0 +1,36 @@
+{
+  "name": "dynamic-css-link",
+  "version": "1.0.0",
+  "description": "Dynamically create and control css links",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yq612/dynamic-css-link.git"
+  },
+  "keywords": [
+    "css",
+    "link"
+  ],
+  "author": "yq612",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yq612/dynamic-css-link/issues"
+  },
+  "homepage": "https://github.com/yq612/dynamic-css-link#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.68.0",
+    "typescript": "^4.5.5"
+  }
+}
