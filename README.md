@@ -1,6 +1,6 @@
 # dynamic-css-link
 
-Dynamically create and control css links
+Dynamically load and operate css links
 
 ## Installation
 ```bash
@@ -9,9 +9,9 @@ npm i dynamic-css-link
 ## Getting Started  
 It's easy to load a css link.
 ```js
-import DynaticCssLink from 'dynamic-css-link';
+import DynamicCssLink from 'dynamic-css-link';
 
-const dcl = new DynaticCssLink();
+const dcl = new DynamicCssLink();
 
 const [light] = dcl.use({ src: './light.css' })
 
@@ -22,9 +22,9 @@ const [light] = dcl.use({ src: './light.css' })
 
 This example show how to load two css link and operate them.
 ```js
-import DynaticCssLink from 'dynamic-css-link';
+import DynamicCssLink from 'dynamic-css-link';
 
-const dcl = new DynaticCssLink();
+const dcl = new DynamicCssLink();
 
 const [light, dark] = dcl.use([
   { src: './light.css' },

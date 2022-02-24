@@ -1,7 +1,7 @@
 {
   "name": "dynamic-css-link",
   "version": "1.0.2",
-  "description": "Dynamically create and control css links",
+  "description": "Dynamically load and operate css links",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
   "files": [
@@ -17,7 +17,11 @@
   },
   "keywords": [
     "css",
-    "link"
+    "link",
+    "typescript",
+    "javascript",
+    "dynamic",
+    "rollup"
   ],
   "author": "yq612",
   "license": "ISC",
