@@ -15,6 +15,5 @@ export default [
       dir: "dist",
     },
     plugins: [resolve({ browser: true }), commonjs(), typescript(), uglify()],
-    sourceMap: true,
   },
 ];
