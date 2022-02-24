@@ -1,6 +1,6 @@
 {
   "name": "dynamic-css-link",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dynamically load and operate css links",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
